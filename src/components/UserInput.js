@@ -1,7 +1,7 @@
 import "../css/App.css";
 import React from "react";
-import PlanetDropDown from "./PlanetDropDown";
 import VehicleSelect from "./VehicleSelect";
+import PlanetDropDown from "./PlanetDropDown";
 
 const showStyle = {
     visibility: "",

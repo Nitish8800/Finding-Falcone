@@ -1,6 +1,6 @@
 import React from "react";
-import { Select } from "antd";
 import "antd/dist/antd.css";
+import { Select } from "antd";
 
 const { Option } = Select;
 const PlanetDropDown = (props) => {

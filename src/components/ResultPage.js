@@ -1,7 +1,7 @@
-import React from 'react';
 import '../css/App.css'
-import { Button } from 'antd';
+import React from 'react';
 import { withRouter } from 'react-router-dom';
+import { Button } from 'antd';
 
 
 const ResultPage = (props) => {

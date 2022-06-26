@@ -5,8 +5,8 @@ import {
     BrowserRouter as Router,
     Switch,
     Route} from 'react-router-dom';
-import { setToken, setVehicles, setPlanets, selectPlanet, selectVehicle, findFalcone, setTotalTime, resetSelectionState } from '../actions';
-import UserInputPage from './UserInputPage';
+    import UserInputPage from './UserInputPage';
+    import { setToken, setVehicles, setPlanets, selectPlanet, selectVehicle, findFalcone, setTotalTime, resetSelectionState } from '../actions';
 import ResultPage from './ResultPage';
 
 

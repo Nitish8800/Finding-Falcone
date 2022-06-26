@@ -1,7 +1,7 @@
 import React from "react";
-import UserInputManager from "./UserInputManager";
-import TimeTracker from "./TimeTracker";
 import Find from "./Find";
+import TimeTracker from "./TimeTracker";
+import UserInputManager from "./UserInputManager";
 import { withRouter } from "react-router-dom";
 
 const UserInputPage = (props) => {

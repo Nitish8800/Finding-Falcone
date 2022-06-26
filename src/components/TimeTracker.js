@@ -4,7 +4,7 @@ import React from "react";
 const TimeTracker = (props) => {
   return (
     <div className="time-tracker-container">
-      <div className="time-tracker-text">Time Taken: {props.totalTime}</div>
+      <div className="time-tracker-text">Time Taken : {props.totalTime}</div>
     </div>
   );
 };
