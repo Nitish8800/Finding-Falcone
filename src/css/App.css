@@ -1,0 +1,114 @@
+@font-face {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Source Sans Pro Regular'), local('SourceSansPro-Regular'), url(https://fonts.gstatic.com/s/sourcesanspro/v11/6xK3dSBYKcSV-LCoeQqfX1RYOo3qOK7lujVj9w.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+  
+  @font-face {
+    font-family: 'Source Sans Pro Light';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Source Sans Pro Light'), local('SourceSansPro-Light'), url(https://fonts.gstatic.com/s/sourcesanspro/v11/6xKydSBYKcSV-LCoeQqfX1RYOo3ik4zwlxdu3cOWxw.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+  
+  @font-face {
+    font-family: 'Source Sans Pro SemiBold';
+    font-style: normal;
+    font-weight: 600;
+    src: local('Source Sans Pro SemiBold'), local('SourceSansPro-SemiBold'), url(https://fonts.gstatic.com/s/sourcesanspro/v11/6xKydSBYKcSV-LCoeQqfX1RYOo3i54rwlxdu3cOWxw.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+  .App{
+    font-family: Source Sans Pro;
+  }
+  .content-main-container{
+    display: inline-block;
+    margin-left: 20%;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .user-input-container{
+    display: inline-block;
+    margin: 10px;
+}
+.vehicles-container{
+    margin-top: 10px;
+}
+.destination-text{
+    font-size: 16px;
+    font-family: Source Sans Pro SemiBold;
+}
+.time-tracker-container{
+    display: inline-block;
+    font-size: 20px;
+    font-family: Source Sans Pro SemiBold;
+    position: absolute;
+    margin-left: 40px;
+    margin-top: 30px;
+}
+.result-container{
+  text-align: center;
+  font-size: 30px;
+  font-family: Source Sans Pro SemiBold;
+}
+.result-success-text{
+  margin-bottom: 10px;
+}
+
+
+.home-page-title{
+  font-size: 25px;
+  font-family: Source Sans Pro SemiBold;
+}
+.inputs-container{
+  display: inline-block;
+  margin: auto;
+  margin-top: 20px;
+}
+
+
+.header-container{
+  text-align: center;
+  margin-top: 20px;
+}
+.header-text{
+  font-size: 40px;
+  display: inline-block;
+  font-family: Source Sans Pro SemiBold;
+}
+
+.header-buttons-container{
+  float: right;
+  margin-top: 10px;
+  font-size: 16px;
+}
+.header-buttons-container:before {
+  content: ' ';
+  display: inline-block;
+  vertical-align: middle; 
+  height: 100%;
+}
+.reset-button{
+  display: inline-block;
+  padding: 0px 10px; 
+  border-right: 2px solid black;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+.gtrust-homepage-button{
+  display: inline-block;
+  padding: 0px 10px; 
+  cursor: pointer;
+}
+
+.footer-main-container{
+  position: absolute;
+  bottom: 15px;
+  text-align: center;
+  width: 100%;
+}
