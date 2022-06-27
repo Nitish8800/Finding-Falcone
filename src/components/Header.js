@@ -4,9 +4,15 @@ import { connect } from "react-redux";
 import { resetSelectionState } from "../actions";
 
 function Header(props) {
+  let { history, resetSelectionState } = props,
+    handleButtonClick = () => {
+      resetSelectionState();
+      history.push("/");
+    };
   const handleResetButtonCLick = () => {
-    props.resetSelectionState();
+    resetSelectionState();
   };
+
   return (
     <div className="header-container">
       <div className="header-text">Finding Falcone!</div>
@@ -14,9 +20,9 @@ function Header(props) {
         <div className="reset-button" onClick={handleResetButtonCLick}>
           Reset
         </div>
-        <div className="reset-button" onClick={handleResetButtonCLick}>
+        <a href="/" className="reset-button" onClick={handleButtonClick}>
           Home
-        </div>
+        </a>
       </div>
     </div>
   );

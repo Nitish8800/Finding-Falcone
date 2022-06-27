@@ -6,6 +6,7 @@ export async function setToken(dispatch){
     dispatch({
         type: 'SET_TOKEN',
         payload: data
+        
     }); 
 }
 export async function setVehicles(dispatch){
